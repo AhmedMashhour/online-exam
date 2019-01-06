@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" >
+	<!-- IE Compatible -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<!-- First Mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	<title>My First Page</title>
+	<link rel="stylesheet" href="../css/bootstrap.css" >
+    <link rel="stylesheet" href="../css/mystyle.css" >
+
+	<!-- [if lt IE 9] >
+		<script src="../js/html5shiv.min.js" ></script>
+		<script src="../js/respond.min.js" ></script>
+	<! [endif] -->
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand " href="#">Hyper Test</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="add_exam.html">Add Exam <span class="sr-only">(current)</span></a></li>
+        <li><a href="exam_grade.html">Exam Grade</a></li>
+       
+        </ul>
+          
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <div class="page">
+    <div class="container-fluid">
+        
+        <div id="quistion">
+            <span>chose the type of question you want to put in your exam</span>
+            <button id="truefalse" onclick="add_true_false()">True/False Question</button>
+            <button id="mul-choice" onclick="add_mul_choice()">Multiple choice Question</button>
+            
+
+        </div>
+        <div id="main" >
+      
+        
+            <p>Online Testing Made Easy</p>
+            <ul>
+                <li>Instant Test results</li>
+                <li>Unlimited Quizzes &amp; Questions</li>
+                <li>Import &amp; export Questions &amp;Tests</li>
+                <li>Create extra administrators to help manage your account</li>
+                <li>Randomize Questions and/or answers</li>
+                <li>Embed Quizzes directly in your website</li>
+                <li>Add time limits &amp; preset Test availability dates</li>
+                <li>Create Lead Generation exams</li>
+                <li>Multiple choice, True/False, Matching</li>
+                <li>Online Certifications</li>
+                
+            </ul>
+         
+    
+    </div>
+    </div>
+    </div>
+		
+    
+    <script>
+        function add_true_false()
+        {
+            var f= '<div><form><label class="ff col-lg-2 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-6">put your Question here:</label><input type="text" id="qtf" class="col-lg-9 col-md-8 col-sm-7 col-xs-6"><div class="iner"><label class="ff col-lg-2 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-offset-1 col-sm-4 col-xs-5">Chose the Answer</label><input type="radio" id="true" name="check" class="ff "><label>True</label><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="radio" id="false" name="check"><label >False</label><br></div><div class="col-xs-offset-10"><button onclick="" id="submit" >Add</button></div></form></div>';
+            document.getElementById("main").innerHTML=f;
+             
+            
+        }
+        function add_mul_choice()
+        {
+            var f= ' <div class="ml"><form><label class="ff col-lg-2 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-6">put your Question here:</label><input type="text" id="qtf" class="col-lg-9 col-md-8 col-sm-7 col-xs-6"><div class="iner"><label class="ff col-lg-11 col-lg-offset-1 col-md-11 col-md-offset-1 col-sm-offset-1 col-sm-11 col-xs-11">Write and Chose the Answer</label><br><div class="b2"><div class="col-lg-3 col-md-3 col-sm-6 col- col-xs-12"> <input type="text" id="t1"><input type="radio" id="num1" name="check"> </div><div class="col-lg-3 col-md-3 col-sm-6 col- col-xs-12"><input type="text" id="t2"><input type="radio" id="num2" name="check"></div><div class="col-lg-3 col-md-3 col-sm-6 col- col-xs-12"><input type="text" id="t3"> <input type="radio" id="num3" name="check"></div> <div class="col-lg-3 col-md-3 col-sm-6 col- col-xs-12"><input type="text" id="t4"><input type="radio" id="num4" name="check"></div> </div></div><div class="col-xs-offset-10"><button onclick="" id="submit" >Add</button></div></form></div>';
+            document.getElementById("main").innerHTML=f;
+             
+            
+        }
+    
+    
+    </script>
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,202 @@
+body
+{
+    padding-top: 51px;
+    background-color: #4dbac5;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+{
+    background-color: aqua;
+   
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus
+{
+    background-color:#7ce3e6;
+    font-weight: bold
+}
+#quistion
+{
+    width: 100%;
+    background-color: #c5e8dd;
+    float: left;
+    height: auto;
+}
+#quistion span
+{
+    color: cornflowerblue;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#main
+{
+     width: 100%;
+    background-color: #4dbac5;
+    float: left;
+    height: 600px;
+    
+}
+#main p
+{
+    text-align: center;
+    color: #321c48;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#main ul
+{
+    margin-left: 40px;
+    text-transform: capitalize;
+}
+#truefalse ,#mul-choice
+{
+    width: auto;
+    max-width: inherit;
+    border-radius: 9%;
+    margin: 17px;
+    background-color: #bbd0e2;
+}
+#main h2
+{
+    text-align: center;
+    color:#202323;
+    font-weight: bold;
+}
+#main p
+{
+    font-size: 25px;
+}
+#main ul li
+{
+    font-size: 20px;
+    color:#352998;
+    margin-left: 70px;
+    font-size: 25px;
+    
+    
+}
+#qtf
+{
+    
+    margin-top: 20px;
+}
+.ff
+{
+    margin-top: 20px;
+    color:#e5e7ec;
+    font-size: 15px;
+    float: left;
+}
+#false,#true
+{
+     margin-top: 25px;
+}
+#submit
+{
+     width: 105px;
+    height: 40px;
+    max-width: inherit;
+    border-radius: 9%;
+    margin-top: 45px;
+    background-color: #bbd0e2;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase
+    
+}
+.exam-info label
+{
+     font-size: 18px;
+    color:#044040;
+}
+#t1,#t2,#t3,#t4,#num1,#num2,#num3,#num4
+{
+    float: right;
+}
+.s-grade
+{
+    margin-top: 50px;
+}
+.s-grade td
+{
+    text-align: center;
+}
+.s-grade td
+{
+    font-size: 18px;
+    margin: 6px;
+    
+}
+.q-t-f
+{
+    clear: both;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.q-t-f span
+{
+    font-size: 20px;
+    color:#044040;
+    
+}
+.multi-ch span
+{
+    font-size: 20px;
+    color:#044040;
+}
+#sub
+{
+    margin-top: 40px;
+    color: cyan;
+    background-color: darkgrey;
+    font-weight: bold;
+    padding: 10px;
+}
+.doctor-list 
+{
+    width: 100%;
+    height: auto;
+    overflow:hidden; 
+    background-color: #afdee0;
+    
+}
+.doctor-list button
+{
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #84b6e0;
+    color: azure;
+    border: 3px solid #337777;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.exam-list table
+{
+    border: 3px solid #0a205d;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 50px;
+    background-color:#dfeae7;
+    
+}
+.exam-list table th,td
+{
+    border: 3px solid #0a205d;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #123130;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
